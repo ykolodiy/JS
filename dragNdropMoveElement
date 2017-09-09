@@ -5,8 +5,8 @@
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    height:40px;
-    width:40px;
+    height:60px;
+    width:60px;
 }
 
 
@@ -45,7 +45,7 @@ function drop(ev) {
   
   <tr>
     <td id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img src="img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="88"></td>
+  <img src="img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="60" height="60"></td>
   <td id="div10" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
    <td id="div11" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -56,7 +56,7 @@ function drop(ev) {
   
    <tr>
     <td id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img src="https://cdn.pornpics.com/pics1/2017-08-23/462865_08big.jpg" draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="88">
+  <img src="https://cdn.pornpics.com/pics1/2017-08-23/462865_08big.jpg" draggable="true" ondragstart="drag(event)" id="drag2" width="60" height="60">
 </td>
     <td id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
