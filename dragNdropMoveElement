@@ -12,8 +12,8 @@ table, th, td
 th, td 
 {
  
-    height:60px;
-    width:60px;
+    height:30px;
+    width:30px;
 }
 </style>
 
@@ -23,8 +23,10 @@ th, td
 
 
 function allowDrop(ev) {
+
 console.log(ev.target.id);
 var s = ev.target.hasChildNodes();
+
 console.log(ev.target.id + " " +Boolean(s));
 if (Boolean(s))
 {
@@ -48,11 +50,11 @@ var s = ev.target.hasChildNodes();
 if (Boolean(s))
 {
 ev.preventDefault();
-}
+
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
     
-   
+   }
     
     
     
@@ -78,11 +80,11 @@ ev.preventDefault();
   <tr>
     <td id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img src="https://cdn.pornpics.com/pics/2011-11-26/36501_10big.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="50" height="50"></td>
-  <td id="div10" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <td id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
-   <td id="div11" ondrop="drop(event)" ondragover="allowDrop(event)">
+   <td id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
-    <td id="div12" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <td id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
   </tr>
   
@@ -90,36 +92,37 @@ ev.preventDefault();
     <td id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img src="https://cdn.pornpics.com/pics1/2017-08-23/462865_08big.jpg" draggable="true" ondragstart="drag(event)" id="drag2" width="50" height="50">
 </td>
-    <td id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <td id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
-   <td id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+   <td id="div7" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
-     <td id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+     <td id="div8" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
   </tr>
   
   <tr>
-   <td id="div13" ondrop="drop(event)" ondragover="allowDrop(event)">
+   <td id="div9" ondrop="drop(event)" ondragover="allowDrop(event)">
+</td>
+ <td id="div10" ondrop="drop(event)" ondragover="allowDrop(event)">
+</td>
+ <td id="div11" ondrop="drop(event)" ondragover="allowDrop(event)">
+ <img src="https://cdn.pornpics.com/pics1/2017-08-11/454976_16big.jpg" draggable="true" ondragstart="drag(event)" id="drag3" width="50" height="50">
+</td>
+ <td id="div12" ondrop="drop(event)" ondragover="allowDrop(event)">
+</td>
+  </tr>
+  <tr>
+<td id="div13" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
  <td id="div14" ondrop="drop(event)" ondragover="allowDrop(event)">
 </td>
  <td id="div15" ondrop="drop(event)" ondragover="allowDrop(event)">
- <img src="https://cdn.pornpics.com/pics1/2017-08-11/454976_16big.jpg" draggable="true" ondragstart="drag(event)" id="drag3" width="50" height="50">
 </td>
  <td id="div16" ondrop="drop(event)" ondragover="allowDrop(event)">
-</td>
-  </tr>
-  <tr>
-     <td id="div17" ondrop="drop(event)" ondragover="allowDrop(event)">
-</td>
- <td id="div18" ondrop="drop(event)" ondragover="allowDrop(event)">
-</td>
- <td id="div19" ondrop="drop(event)" ondragover="allowDrop(event)">
-</td>
- <td id="div20" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img src="https://cdn.pornpics.com/pics/2015-06-18/184087_16big.jpg" draggable="true" ondragstart="drag(event)" id="drag4" width="50" height="50">
 </td>
   </tr>
 </table>
+
 </body>
 </html>
