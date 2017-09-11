@@ -7,14 +7,15 @@ table, th, td
 {
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 0px; margin: 0px;
+    border-spacing: 0px;
   
 }
 th, td 
-{
- 
-    height:30px;
-    width:30px;
-}
+{ height:50px;
+    width:50px;}
+    
+img {display: block;vertical-align: bottom;}
 </style>
 
 <script>
@@ -24,9 +25,7 @@ th, td
 
 function allowDrop(ev) {
 
-console.log(ev.target.id);
 var s = ev.target.hasChildNodes();
-
 console.log(ev.target.id + " " +Boolean(s));
 if (Boolean(s))
 {
@@ -69,7 +68,7 @@ ev.preventDefault();
 
 
 
-<table style="width:100%">
+<table>
   <tr>
     <th>kids</th>
     <th></th> 
