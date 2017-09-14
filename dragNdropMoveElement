@@ -36,7 +36,7 @@ img {display: block;vertical-align: bottom;}
 function allowDrop(ev) {
 
 var s = ev.target.hasChildNodes();
-console.log(ev.target.id + " " +Boolean(s));
+//console.log(ev.target.id + " " +Boolean(s));
 if (Boolean(s))
 {
 ev.preventDefault();
@@ -79,15 +79,21 @@ console.log(b.children[0].id);
 var c = document.getElementById("div11");
 console.log(c.children[0].id);
 var d = document.getElementById("div15");
-console.log(d.children[0].id);     }
+console.log(d.children[0].id);    
+
+if (a.children[0].id == "drag2" && b.children[0].id == "drag1" && c.children[0].id == "drag4" && d.children[0].id == "drag3") {alert("You WIN. How do you know it? You like niggers?")}
+else {alert("You Loose. You fucking idiot. Are you Blind? Dont you see who is the father????");}
+
+
+}
 
 catch(err) {
-console.log("drag to the middle coloumn those fucken kids you motherfucker");           }
+console.log("drag to the middle coloumn those fucken kids you motherfucker"); 
+alert("I said match all of the niggers!!!!");}
 
 
 
-if (a.children[0].id == "drag2" && b.children[0].id == "drag1" && c.children[0].id == "drag4" && d.children[0].id == "drag3") {alert("you win :))))))) ")}
-else {alert("you loose :((((((( ");}
+
 
 
 
@@ -116,8 +122,8 @@ else {alert("you loose :((((((( ");}
 <div class="container-fluid">
 
   <div class="row">
-    <div id = "tex" class="col-md-6" >Hello Im Latisha. A single mom of 6. Plz help me find all of dads for my kids.
-<img src="http://static.tvtropes.org/pmwiki/pub/images/black-woman-attitude_4523.jpg" >
+    <div id = "tex" class="col-md-6" >Hello Im Latisha. A single mom of 6. <br> Plz help me find all of dads for my kids.
+<img src="http://static.tvtropes.org/pmwiki/pub/images/black-woman-attitude_4523.jpg" width="243" >
 </div>
     <div class="col-md-6" >
 <table>
@@ -185,7 +191,7 @@ else {alert("you loose :((((((( ");}
    
   </div>
 </div>
-<button onclick="lo()">go</button>
+<button onclick="lo()">MATCH the NIGGERS</button>
 
 
 
