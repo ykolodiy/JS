@@ -68,6 +68,33 @@ ev.preventDefault();
     
     
 }
+
+function lo(){
+
+try {
+var a = document.getElementById("div3");
+console.log(a.children[0].id);
+var b = document.getElementById("div7");
+console.log(b.children[0].id);
+var c = document.getElementById("div11");
+console.log(c.children[0].id);
+var d = document.getElementById("div15");
+console.log(d.children[0].id);     }
+
+catch(err) {
+console.log("drag to the middle coloumn those fucken kids you motherfucker");           }
+
+
+
+if (a.children[0].id == "drag2" && b.children[0].id == "drag1" && c.children[0].id == "drag4" && d.children[0].id == "drag3") {alert("you win :))))))) ")}
+else {alert("you loose :((((((( ");}
+
+
+
+
+
+}
+
 </script>
 
 </head>
@@ -89,15 +116,15 @@ ev.preventDefault();
 <div class="container-fluid">
 
   <div class="row">
-    <div class="col-md-6" >Hello Im Latisha. A single mom of 6. Plz help me find all of dads for my kids.
+    <div id = "tex" class="col-md-6" >Hello Im Latisha. A single mom of 6. Plz help me find all of dads for my kids.
 <img src="http://static.tvtropes.org/pmwiki/pub/images/black-woman-attitude_4523.jpg" >
 </div>
     <div class="col-md-6" >
 <table>
   <tr>
-    <th>kids</th>
+    <th>drag >>> </th>
    
-    <th></th>
+    <th>kids</th>
     <th>dads</th>
   </tr>
   
@@ -112,6 +139,8 @@ ev.preventDefault();
 </td>
   </tr>
   
+  
+  
    <tr>
     <td id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img src="https://cdn.pornpics.com/pics1/2017-08-23/462865_08big.jpg" draggable="true" ondragstart="drag(event)" id="drag2" >
@@ -124,23 +153,29 @@ ev.preventDefault();
 </td>
   </tr>
   
+  
+  
   <tr>
    <td id="div9" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="https://cdn.pornpics.com/pics1/2017-08-11/454976_16big.jpg" draggable="true" ondragstart="drag(event)" id="drag3" >
 </td>
 
  <td id="div11" ondrop="drop(event)" ondragover="allowDrop(event)">
- <img src="https://cdn.pornpics.com/pics1/2017-08-11/454976_16big.jpg" draggable="true" ondragstart="drag(event)" id="drag3" >
 </td>
  <td id="div12" ondrop="drop(event)" ondragover="allowDrop(event)">
  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/16-year-old_black_man.jpg" id="dragb" >
 </td>
   </tr>
+  
+  
+  
+  
   <tr>
 <td id="div13" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="https://cdn.pornpics.com/pics/2015-06-18/184087_16big.jpg" draggable="true" ondragstart="drag(event)" id="drag4" >
 </td>
  
  <td id="div15" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img src="https://cdn.pornpics.com/pics/2015-06-18/184087_16big.jpg" draggable="true" ondragstart="drag(event)" id="drag4" >
 </td>
  <td id="div16" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img src="https://i.ytimg.com/vi/mSOXLyANTdw/hqdefault.jpg" id="draga" >
@@ -150,6 +185,7 @@ ev.preventDefault();
    
   </div>
 </div>
+<button onclick="lo()">go</button>
 
 
 
