@@ -1,0 +1,28 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+
+  
+ $.getJSON('http://freegeoip.net/json/', function(result) {
+    //alert(result.country_code);
+    
+    if (result.country_code != "UA")
+    {
+    location.href = 'http://emaus-oselya.org/eng/';
+    
+    }
+    else {
+     location.href = 'http://emaus-oselya.org/ua/';
+    
+    }
+    
+    
+  });
+
+});
+
+
+
+</script>
