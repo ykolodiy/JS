@@ -1,0 +1,62 @@
+this add new class .change to the element to 3 divs and moves them https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
+
+_________________
+
+togle btw higlhlight and show hide  https://www.w3schools.com/howto/howto_js_accordion.asp
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+
+
+classList.toggle classList.add classList.remove()
+Set the class for a <div> element with id="myDIV":
+document.getElementById("myDIV").className = "mystyle";
+
+
+// Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+    
+    
+     evt.currentTarget.className += " active";    Get the element whose event listeners triggered a specific event:
+
+alert(event.currentTarget);
+}
