@@ -1,3 +1,4 @@
+DEFER JS
 <script type="text/javascript">
 function downloadJSAtOnload() {
 var element = document.createElement("script");
@@ -13,7 +14,7 @@ else window.onload = downloadJSAtOnload;
 
 
 https://varvy.com/pagespeed
-
+DEFER VIDEOS
 https://varvy.com/pagespeed/defer-videos.html
 <script>
 function init() {
