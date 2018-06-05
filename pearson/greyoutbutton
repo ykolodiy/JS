@@ -1,0 +1,27 @@
+<input type="text" name="city_or_zip" id="city_or_zip" size="25" placeholder="city or zip"> 
+
+<button 
+id="searchregister"
+onclick="getInstitutionsByCityOrZip($('city_or_zip').value); return false;" 
+disabled
+>
+search 
+</button>
+
+
+<script>
+document.getElementById("city_or_zip").addEventListener("change", greyout);
+document.getElementById("city_or_zip").addEventListener("click", greyout);
+document.getElementById("city_or_zip").addEventListener("keypress", greyout);
+document.getElementById("city_or_zip").addEventListener("keyup", greyout);
+document.getElementById("city_or_zip").addEventListener("touchend", greyout);
+
+function greyout () {
+var re = new RegExp("[a-zA-Z][a-zA-Z0-9\s]*");
+if (document.getElementById("city_or_zip").value != "" && re.test(document.getElementById("city_or_zip").value)) 
+{
+document.getElementById("searchregister").removeAttribute("disabled");
+}
+else { document.getElementById("searchregister").disabled = "true";} 
+}
+</script>
