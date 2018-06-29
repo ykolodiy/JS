@@ -60,3 +60,7 @@ document.getElementById("myDIV").className = "mystyle";
 
 alert(event.currentTarget);
 }
+
+
+//insert element
+document.body.insertAdjacentHTML( 'afterbegin', '<div id="myID">...</div>' );
