@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="image.gif" onerror="(function(el){el.src='https://assets.pearsonschool.com/prodImages/OS3D_sf_social_studies_GK.png';})(this)"
+>
+
+
+
+
+</body>
+</html>
