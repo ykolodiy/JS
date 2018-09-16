@@ -4,6 +4,8 @@ function outer(){
   var b=20;
   
   var inner = function () {
+    a++;
+    b++;
     console.log(a);
      console.log(b);
     
@@ -15,3 +17,7 @@ function outer(){
 var innerfunct = outer();
 
 innerfunct();
+
+var innerfunct2 = outer();
+
+innerfunct2();
