@@ -1,0 +1,14 @@
+    
+    setInterval(function(){
+    var min=0; 
+    var max=9;  
+    var random1 =Math.floor(Math.random() * (+max - +min)) + +min; 
+    var random2 =Math.floor(Math.random() * (+max - +min)) + +min; 
+    var random3 =Math.floor(Math.random() * (+max - +min)) + +min; 
+  
+    document.getElementById("demo").innerHTML = random1+""+random2+""+random3 ; 
+    
+    document.body.style.backgroundColor = "#"+random1+""+random2+""+random3;
+    
+    
+    }, 1000);
